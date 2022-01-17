@@ -11,7 +11,7 @@ app.use(bodyPars.json());
 // app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://temujin469:pi04320416@crud.co44u.mongodb.net/product?retryWrites=true&w=majority",{
+mongoose.connect("<mongodbURL>",{
     useNewUrlParser:true,
 }
 );
